@@ -1,0 +1,25 @@
+{
+  "name": "polystarapi",
+  "version": "1.0.0",
+  "description": "An api for managing sensor data from polystar iot projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "iot",
+    "nodejs",
+    "express",
+    "api"
+  ],
+  "author": "Patrick@875",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
